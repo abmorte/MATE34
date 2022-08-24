@@ -1,0 +1,1 @@
+# Entregas da disciplina MATE34 PGCOMP-UFBA 2022
