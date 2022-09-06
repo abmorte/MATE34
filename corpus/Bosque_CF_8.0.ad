@@ -1,0 +1,743 @@
+
+<ext id=1 cad="Opinião" sec="opi" sem="94a">
+<t>
+<s>
+
+SOURCE: CETENFolha n=1 cad="Opinião" sec="opi" sem="94a"
+CF1-1 PT no governo
+A1
+UTT:acl
+=SUBJ:np
+==H:prop('PT' M S)	PT
+=SA:pp
+==H:prp('em' <sam->)	em
+==P<:np
+===>N:art('o' <-sam> <artd> M S)	o
+===H:n('governo' M S)	governo
+
+</s>
+</t>
+<p>
+<s>
+
+SOURCE: CETENFolha n=1 cad="Opinião" sec="opi" sem="94a" #W
+CF1-3 BRASÍLIA Pesquisa Datafolha publicada hoje revela um dado supreendente: recusando uma postura radical, a esmagadora maioria (77%) dos eleitores quer o PT participando do Governo Fernando Henrique Cardoso.
+A1
+STA:fcl
+=ADVL:np
+==H:prop('Brasília' F S)	Brasília
+=SUBJ:np
+==H:n('Pesquisa_Datafolha' <np-idf> F S)	Pesquisa_Datafolha
+==N<:icl
+===P:vp
+====MV:v-pcp('publicar' F S)	publicada
+===ADVL:advp
+====H:adv('hoje')	hoje
+=P:vp
+==MV:v-fin('revelar' PR 3S IND)	revela
+=ACC:np
+==>N:art('um' <arti> M S)	um
+==H:n('dado' <np-idf> M S)	dado
+==N<:adjp
+===H:adj('surpreendente' <ALT> M S)	supreendente
+==:
+==N<PRED:fcl
+===ADVL:icl(<ger>)
+====P:vp
+=====MV:v-ger('recusar')	recusando
+====ACC:np
+=====>N:art('um' <arti> F S)	uma
+=====H:n('postura' <np-idf> F S)	postura
+=====N<:adjp
+======H:adj('radical' F S)	radical
+===,
+===SUBJ:np
+====>N:art('o' <artd> F S)	a
+====>N:adj('esmagador' F S)	esmagadora
+====H:n('maioria' F S)	maioria
+====(
+====N<PRED:np
+=====>N:num('77' <card> M P)	77
+=====H:n('%' M P)	%
+====)
+====N<:pp
+=====H:prp('de' <sam->)	de
+=====P<:np
+======>N:art('o' <-sam> <artd> M P)	os
+======H:n('eleitor' <np-def> M P)	eleitores
+===P:vp
+====MV:v-fin('querer' PR 3S IND)	quer
+===ACC:np
+====>N:art('o' <artd> M S)	o
+====H:prop('PT' M S)	PT
+===OC:icl(<ger>)
+====P:vp
+=====MV:v-ger('participar')	participando
+====PIV:pp
+=====H:prp('de' <sam->)	de
+=====P<:np
+======>N:art('o' <-sam> <artd> M S)	o
+======H:n('governo' <np-def> <prop> M S)	Governo
+======N<:np
+=======H:prop('Fernando_Henrique_Cardoso' M S)	Fernando_Henrique_Cardoso
+=.
+
+</s>
+<s>
+
+SOURCE: CETENFolha n=1 cad="Opinião" sec="opi" sem="94a" #D
+CF1-4 Tem sentido -- aliás, muitíssimo sentido.
+A1
+STA:fcl
+=P:vp
+==MV:v-fin('ter' <nosubj> PR 3S IND)	Tem
+=ACC:np-
+==H:n('sentido' M S)	sentido
+=--
+=ADVL:advp
+==H:adv('aliás' <kc>)	aliás
+=,
+=-ACC:np
+==N<PRED:np
+===>N:pron-det('muitíssimo' <quant> <SUP> M S)	muitíssimo
+===H:n('sentido' M S)	sentido
+=.
+
+</s>
+</p>
+<p>
+<s>
+
+SOURCE: CETENFolha n=1 cad="Opinião" sec="opi" sem="94a"
+CF1-5 Muito mais do que nos tempos na ditadura, a solidez do PT está, agora, ameaçada.
+A1
+STA:fcl
+=ADVL:advp
+==>A:adv('muito' <quant>)	Muito
+==H:adv('mais' <quant> <KOMP>)	mais
+==KOMP<:acl
+===COM:conj-s('do_que')	do_que
+===SA:pp
+====H:prp('em' <sam->)	em
+====P<:np
+=====>N:art('o' <-sam> <artd> M P)	os
+=====H:n('tempo' <np-def> M P)	tempos
+=====N<:pp
+======H:prp('em' <sam->)	em
+======P<:np
+=======>N:art('o' <-sam> <artd> F S)	a
+=======H:n('ditadura' <np-def> F S)	ditadura
+=,
+=SUBJ:np
+==>N:art('o' <artd> F S)	a
+==H:n('solidez' <np-def> F S)	solidez
+==N<:pp
+===H:prp('de' <sam->)	de
+===P<:np
+====>N:art('o' <-sam> <artd> M S)	o
+====H:prop('PT' M S)	PT
+=P:vp
+==MV:v-fin('estar' PR 3S IND)	está
+=,
+=ADVL:advp
+==H:adv('agora' <kc>)	agora
+=,
+=SC:v-pcp('ameaçar' F S)	ameaçada
+=.
+
+</s>
+<s>
+
+SOURCE: CETENFolha n=1 cad="Opinião" sec="opi" sem="94a"
+CF1-6 Nem Lula nem o partido ainda encontraram um discurso para se diferenciar.
+A1
+STA:fcl
+=SUBJ:cu
+==CO:conj-c('nem' <parkc-1>)	Nem
+==CJT:np
+===H:prop('Lula' M S)	Lula
+==CO:conj-c('nem' <co-subj> <parkc-2>)	nem
+==CJT:np
+===>N:art('o' <artd> M S)	o
+===H:n('partido' <np-def> M S)	partido
+=ADVL:advp
+==H:adv('ainda')	ainda
+=P:vp
+==MV:v-fin('encontrar' PS/MQP 3P IND)	encontraram
+=ACC:np
+==>N:art('um' <arti> M S)	um
+==H:n('discurso' <np-idf> M S)	discurso
+=ADVL/N<[+1]:pp
+==H:prp('para')	para
+==P<:icl
+===ACC:np
+====H:pron-pers('se' <refl> <coll> M 3S ACC)	se
+===P:vp
+====MV:v-inf('diferenciar' <icl-fin>)	diferenciar
+=.
+
+</s>
+<s>
+
+SOURCECETENFolha n=1 cad="Opinião" sec="opi" sem="94a"
+CF1-7 Eles se dizem oposição, mas ainda não informaram o que vão combater.
+A1
+STA:cu
+=CJT:fcl
+==SUBJ:np
+===H:pron-pers('eles' M 3P NOM)	Eles
+==ACC:np
+===H:pron-pers('se' M 3P ACC)	se
+==P:vp
+===MV:v-fin('dizer' PR 3P IND)	dizem
+==OC:np
+===H:n('oposição' <np-idf> F S)	oposição
+=,
+=CO:conj-c('mas' <co-fmc>)	mas
+=CJT:fcl
+==ADVL:advp
+===>A:adv('ainda')	ainda
+===H:adv('não')	não
+==P:vp
+===MV:v-fin('informar' <nosubj> PS/MQP 3P IND)	informaram
+==ACC:fcl
+===ACC:np
+====H:pron-indp('o_que' <interr> M S)	o_que
+===P:vp
+====AUX:v-fin('ir' PR 3P IND)	vão
+====MV:v-inf('combater' <nosubj> <icl-subst>)	combater
+=.
+
+</s>
+<s>
+
+SOURCE: CETENFolha n=1 cad="Opinião" sec="opi" sem="94a"
+CF1-8 Muitas das prioridades do novo governo coincidem com as prioridades do PT.
+A1
+STA:fcl
+=SUBJ:np
+==H:pron-det('muito' <quant> F P)	Muitas
+==N<:pp
+===H:prp('de' <sam->)	de
+===P<:np
+====>N:art('o' <-sam> <artd> F P)	as
+====H:n('prioridade' <np-partitive2> <np-def> F P)	prioridades
+====N<:pp
+=====H:prp('de' <sam->)	de
+=====P<:np
+======>N:art('o' <-sam> <artd> M S)	o
+======>N:adj('novo' M S)	novo
+======H:n('governo' M S)	governo
+=P:vp
+==MV:v-fin('coincidir' PR 3P IND)	coincidem
+=PIV:pp
+==H:prp('com')	com
+==P<:np
+===>N:art('o' <artd> F P)	as
+===H:n('prioridade' <np-def> F P)	prioridades
+===N<:pp
+====H:prp('de' <sam->)	de
+====P<:np
+=====>N:art('o' <-sam> <artd> M S)	o
+=====H:prop('PT' M S)	PT
+=.
+
+</s>
+</p>
+</ext>
+<ext id=2 cad="TV Folha" sec="clt-soc" sem="94a">
+<t>
+<s>
+
+SOURCE: CETENFolha n=2 cad="TV Folha" sec="clt-soc" sem="94a"
+CF2-1 «Confissões» chega a Portugal
+A1
+STA:fcl
+=«
+=SUBJ:np
+==H:prop('Confissões' F S)	Confissões
+=»
+=P:vp
+==MV:v-fin('chegar' PR 3S IND)	chega
+=SA:pp
+==H:prp('a')	a
+==P<:np
+===H:prop('Portugal' M S)	Portugal
+
+</s>
+</t>
+<p>
+<s>
+
+SOURCE: CETENFolha n=2 cad="TV Folha" sec="clt-soc" sem="94a"
+CF2-2 Desde o último dia 13, «Confissões de Adolescente» pode ser vista pelos teens portugueses.
+A1
+STA:fcl
+=ADVL:pp
+==H:prp('desde')	Desde
+==P<:np
+===>N:art('o' <artd> M S)	o
+===>N:adj('último' <NUM-ord> M S)	último
+===H:n('dia' M S)	dia
+===N<:adjp
+====H:num('13' <card> M P)	13
+=,
+=«
+=SUBJ:np
+==H:prop('Confissões_de_Adolescente' F S)	Confissões_de_Adolescente
+=»
+=P:vp
+==AUX:v-fin('poder' PR 3S IND)	pode
+==AUX:v-inf('ser')	ser
+==MV:v-pcp('ver' <passive> F S)	vista
+=PASS:pp
+==H:prp('por' <sam->)	por
+==P<:np
+===>N:art('o' <-sam> <artd> M P)	os
+===H:n('teen' <np-def> M P)	teens
+===N<:adjp
+====H:adj('português' M P)	portugueses
+=.
+
+</s>
+<s>
+
+SOURCE: CETENFolha n=2 cad="TV Folha" sec="clt-soc" sem="94a"
+CF2-3 A série exibida aqui pela Cultura estreou na TVI de Portugal.
+A1
+STA:fcl
+=SUBJ:np
+==>N:art('o' <artd> F S)	A
+==H:n('série' <np-def> F S)	série
+==N<:icl
+===P:vp
+====MV:v-pcp('exibir' <passive> F S)	exibida
+===ADVL:advp
+====H:adv('aqui')	aqui
+===PASS:pp
+====H:prp('por' <sam->)	por
+====P<:np
+=====>N:art('o' <-sam> <artd> F S)	a
+=====H:n('cultura' <np-def> <prop> F S)	Cultura
+=P:vp
+==MV:v-fin('estrear' PS 3S IND)	estreou
+=ADVL:pp
+==H:prp('em' <sam->)	em
+==P<:np
+===>N:art('o' <-sam> <artd> F S)	a
+===H:prop('TVI' F S)	TVI
+===N<:pp
+====H:prp('de')	de
+====P<:np
+=====H:prop('Portugal' M S)	Portugal
+=.
+
+</s>
+<s>
+
+SOURCE: CETENFolha n=2 cad="TV Folha" sec="clt-soc" sem="94a"
+CF2-4 Além disso, a co-produção com o canal francês TCF1 para a realização de mais 30 episódios continua sendo negociada.
+A1
+STA:fcl
+=ADVL:pp
+==H:prp('além_de' <sam->)	Além_de
+==P<:np
+===H:pron-indp('isso' <dem> <-sam> M S)	isso
+=,
+=SUBJ:np
+==>N:art('o' <artd> F S)	a
+==H:n('co-produção' <np-def> F S)	co-produção
+==N<:pp
+===H:prp('com')	com
+===P<:np
+====>N:art('o' <artd> M S)	o
+====H:n('canal' <np-def> M S)	canal
+====N<:adjp
+=====H:adj('francês' M S)	francês
+====N<:np
+=====H:prop('TCF1' M S)	TCF1
+==N<:pp
+===H:prp('para')	para
+===P<:np
+====>N:art('o' <artd> F S)	a
+====H:n('realização' <np-def> F S)	realização
+====N<ARGO:pp
+=====H:prp('de')	de
+=====P<:np
+======>N:pron-det('mais' <quant> M P)	mais
+======>N:num('30' <card> M P)	30
+======H:n('episódio' M P)	episódios
+=P:vp
+==AUX:v-fin('continuar' PR 3S IND)	continua
+==AUX:v-ger('ser')	sendo
+==MV:v-pcp('negociar' <passive> F S)	negociada
+=.
+
+</s>
+</p>
+<t>
+<s>
+
+SOURCE: CETENFolha n=2 cad="TV Folha" sec="clt-soc" sem="94a"
+CF2-5 Manchete estréia novo jornalístico
+A1
+STA:fcl
+=SUBJ:np
+==H:prop('Manchete' F S)	Manchete
+=P:vp
+==MV:v-fin('estrear' PR 3S IND)	estréia
+=ACC:np
+==>N:adj('novo' M S)	novo
+==H:n('jornalístico' M S)	jornalístico
+
+</s>
+</t>
+<p>
+<s>
+
+SOURCE: CETENFolha n=2 cad="TV Folha" sec="clt-soc" sem="94a"
+CF2-6 «Câmera Manchete» é o nome do novo programa jornalístico que estréia quarta-feira, às 22h30, na Rede Manchete.
+A1
+STA:fcl
+=«
+=SUBJ:np
+==H:prop('Câmera_Manchete' M S)	Câmera_Manchete
+=»
+=P:vp
+==MV:v-fin('ser' PR 3S IND)	é
+=SC:np
+==>N:art('o' <artd> M S)	o
+==H:n('nome' <np-def> M S)	nome
+==N<:pp
+===H:prp('de' <sam->)	de
+===P<:np
+====>N:art('o' <-sam> <artd> M S)	o
+====>N:adj('novo' M S)	novo
+====H:n('programa' M S)	programa
+====N<:adjp
+=====H:adj('jornalístico' M S)	jornalístico
+====N<:fcl
+=====SUBJ:np
+======H:pron-indp('que' <rel> M S)	que
+=====P:vp
+======MV:v-fin('estrear' <fs-rel> PR 3S IND)	estréia
+=====ADVL:np
+======H:n('quarta-feira' <np-idf> F S)	quarta-feira
+=====,
+=====ADVL:pp
+======H:prp('a' <sam->)	a
+======P<:np
+=======>N:art('o' <-sam> <artd> F P)	as
+=======H:n('22h30' <np-def> F P)	22h30
+=====,
+=====ADVL:pp
+======H:prp('em' <sam->)	em
+======P<:np
+=======>N:art('o' <-sam> <artd> F S)	a
+=======H:prop('Rede_Manchete' F S)	Rede_Manchete
+=.
+
+</s>
+<s>
+
+SOURCE: CETENFolha n=2 cad="TV Folha" sec="clt-soc" sem="94a"
+CF2-7 Sob o comando de Ronaldo Rosas, o programa mostrará reportagens especiais de Sônia Pompeu.
+A1
+STA:fcl
+=ADVL:pp
+==H:prp('sob')	Sob
+==P<:np
+===>N:art('o' <artd> M S)	o
+===H:n('comando' <np-def> M S)	comando
+===N<:pp
+====H:prp('de')	de
+====P<:np
+=====H:prop('Ronaldo_Rosas' M S)	Ronaldo_Rosas
+=,
+=SUBJ:np
+==>N:art('o' <artd> M S)	o
+==H:n('programa' <np-def> M S)	programa
+=P:vp
+==MV:v-fin('mostrar' FUT 3S IND)	mostrará
+=ACC:np
+==H:n('reportagem' <np-idf> F P)	reportagens
+==N<:adjp
+===H:adj('especial' F P)	especiais
+==N<:pp
+===H:prp('de')	de
+===P<:np
+====H:prop('Sônia_Pompeu' F S)	Sônia_Pompeu
+=.
+
+</s>
+<s>
+
+SOURCE: CETENFolha n=2 cad="TV Folha" sec="clt-soc" sem="94a"
+CF2-8 A direção do novo semanal será assinada por Ewaldo Ruy.
+A1
+STA:fcl
+=SUBJ:np
+==>N:art('o' <artd> F S)	A
+==H:n('direção' <np-def> F S)	direção
+==N<:pp
+===H:prp('de' <sam->)	de
+===P<:np
+====>N:art('o' <-sam> <artd> M S)	o
+====>N:adj('novo' M S)	novo
+====H:n-adj('semanal' M S)	semanal
+=P:vp
+==AUX:v-fin('ser' FUT 3S IND)	será
+==MV:v-pcp('assinar' <passive> F S)	assinada
+=PASS:pp
+==H:prp('por')	por
+==P<:np
+===H:prop('Ewaldo_Ruy' M S)	Ewaldo_Ruy
+=.
+
+</s>
+</p>
+</ext>
+<ext id=3 cad="Esporte" sec="des" sem="94b">
+<p>
+<s>
+
+SOURCE: CETENFolha n=3 cad="Esporte" sec="des" sem="94b"
+CF3-1 Os jogadores se dividem pelos dez quartos do alojamento, equipados com frigobar, ar condicionado, televisão e telefone.
+A1
+STA:fcl
+=SUBJ:np
+==>N:art('o' <artd> M P)	Os
+==H:n('jogador' <np-def> M P)	jogadores
+=ACC:np
+==H:pron-pers('se' M 3P ACC)	se
+=P:vp
+==MV:v-fin('dividir' PR 3P IND)	dividem
+=PIV:pp
+==H:prp('por' <sam->)	por
+==P<:np
+===>N:art('o' <-sam> <artd> M P)	os
+===>N:num('dez' <card> M P)	dez
+===H:n('quarto' M P)	quartos
+===N<:pp
+====H:prp('de' <sam->)	de
+====P<:np
+=====>N:art('o' <-sam> <artd> M S)	o
+=====H:n('alojamento' <np-def> M S)	alojamento
+===,
+===N<PRED:icl
+====P:vp
+=====MV:v-pcp('equipar' M P)	equipados
+====PIV:pp
+=====H:prp('com')	com
+=====P<:cu
+======CJT:np
+=======H:n('frigobar' <np-idf> M S)	frigobar
+======,
+======CJT:np
+=======H:n('ar' <np-idf> M S)	ar
+=======N<:adjp
+========H:v-pcp('condicionado' M S)	condicionado
+======,
+======CJT:np
+=======H:n('televisão' <np-idf> F S)	televisão
+======CO:conj-c('e' <co-prparg>)	e
+======CJT:np
+=======H:n('telefone' <np-idf> M S)	telefone
+=.
+
+</s>
+<s>
+
+SOURCE: CETENFolha n=3 cad="Esporte" sec="des" sem="94b" #D
+CF3-2 «É uma coisa do Primeiro Mundo», afirmou o levantador Maurício (leia matéria ao lado).
+A1
+STA:fcl
+=ACC:fcl
+==«
+==P:vp
+===MV:v-fin('ser' <fs-subst> <nosubj> PR 3S IND)	É
+==SC:np
+===>N:art('um' <arti> F S)	uma
+===H:n('coisa' <np-idf> F S)	coisa
+===N<:pp
+====H:prp('de' <sam->)	de
+====P<:np
+=====>N:art('o' <artd> <-sam> M S)	o
+=====H:prop('Primeiro_Mundo' M S)	Primeiro_Mundo
+==»
+=,
+=P:vp
+==MV:v-fin('afirmar' PS 3S IND)	afirmou
+=SUBJ:np
+==>N:art('o' <artd> M S)	o
+==H:n('levantador' <np-def> M S)	levantador
+==N<:np
+===H:prop('Maurício' M S)	Maurício
+=(
+=STA:fcl
+==P:vp
+===MV:v-fin('ler' <nosubj> PR 1/3S SUBJ)	leia
+==ACC:np
+===H:n('matéria' <np-idf> F S)	matéria
+==ADVL:pp
+===H:prp('a' <sam->)	a
+===P<:np
+====>N:art('o' <-sam> <artd> M S)	o
+====H:n('lado' <np-def> M S)	lado
+=)
+=.
+
+</s>
+</p>
+<p>
+<s>
+
+SOURCE: CETENFolha n=3 cad="Esporte" sec="des" sem="94b"
+CF3-3 Além de Maurício, Carlão e Paulão, a seleção deve contar hoje com Giovane.
+A1
+STA:fcl
+=ADVL:pp
+==H:prp('além_de')	Além_de
+==P<:cu
+===CJT:np
+====H:prop('Maurício' M S)	Maurício
+===,
+===CJT:np
+====H:prop('Carlão' M S)	Carlão
+===CO:conj-c('e' <co-prparg>)	e
+===CJT:np
+====H:prop('Paulão' M S)	Paulão
+=,
+=SUBJ:np
+==>N:art('o' <artd> F S)	a
+==H:n('seleção' <np-def> F S)	seleção
+=P:vp
+==AUX:v-fin('dever' PR 3S IND)	deve
+==MV:v-inf('contar')	contar
+=ADVL:advp
+==H:adv('hoje')	hoje
+=PIV:pp
+==H:prp('com')	com
+==P<:np
+===H:prop('Giovane' M S)	Giovane
+=.
+
+</s>
+<s>
+
+SOURCE: CETENFolha n=3 cad="Esporte" sec="des" sem="94b"
+CF3-4 O atacante, que deveria ter se apresentado anteontem à noite, pediu mais um dia de folga ao treinador.
+A1
+STA:fcl
+=SUBJ:np
+==>N:art('o' <artd> M S)	O
+==H:n('atacante' <np-def> M S)	atacante
+==,
+==N<PRED:fcl
+===SUBJ:np
+====H:pron-indp('que' <rel> M S)	que
+===P:vp-
+====AUX:v-fin('dever' COND 1/3S)	deveria
+====AUX:v-inf('ter')	ter
+===ACC:np
+====H:pron-pers('se' <obj> M 3S ACC)	se
+===-P:vp
+====MV:v-pcp('apresentar' <fs-rel> M S)	apresentado
+===ADVL:advp
+====H:adv('anteontem')	anteontem
+====A<:pp
+=====H:prp('a' <sam->)	a
+=====P<:np
+======>N:art('o' <-sam> <artd> F S)	a
+======H:n('noite' <np-def> F S)	noite
+=,
+=P:vp
+==MV:v-fin('pedir' PS 3S IND)	pediu
+=ACC:np
+==>N:pron-det('mais' <quant> M S)	mais
+==>N:num('um' <card> M S)	um
+==H:n('dia' M S)	dia
+==N<:pp
+===H:prp('de')	de
+===P<:np
+====H:n('folga' <np-idf> F S)	folga
+=PIV:pp
+==H:prp('a' <sam->)	a
+==P<:np
+===>N:art('o' <-sam> <artd> M S)	o
+===H:n('treinador' <np-def> M S)	treinador
+=.
+
+</s>
+</p>
+</ext>
+<ext id=4 cad="Informática" sec="com" sem="94b">
+<p>
+<s>
+
+
+SOURCE: CETENFolha n=4 cad="Informática" sec="com" sem="94b"
+CF4-1 Na volta de uma viagem ao exterior, vale a pena trazer uma impressora matricial.
+A1
+STA:fcl
+=ADVL:pp
+==H:prp('em' <sam->)	Em
+==P<:np
+===>N:art('o' <-sam> <artd> F S)	a
+===H:n('volta' <np-def> F S)	volta
+===N<ARG:pp
+====H:prp('de')	de
+====P<:np
+=====>N:art('um' <arti> F S)	uma
+=====H:n('viagem' <np-idf> F S)	viagem
+=====N<:pp
+======H:prp('a' <sam->)	a
+======P<:np
+=======>N:art('o' <-sam> <artd> M S)	o
+=======H:n('exterior' <np-def> M S)	exterior
+=,
+=P:vp
+==MV:v-fin('valer' PR 3S IND)	vale
+=ACC:np
+==>N:art('o' <artd> F S)	a
+==H:n('pena' <np-def> F S)	pena
+=SUBJ:icl
+==P:vp
+===MV:v-inf('trazer' <icl-subst> 3S)	trazer
+==ACC:np
+===>N:art('um' <arti> F S)	uma
+===H:n('impressora' <np-idf> F S)	impressora
+===N<:adjp
+====H:adj('matricial' F S)	matricial
+=.
+
+</s>
+<s>
+
+
+SOURCE: CETENFolha n=4 cad="Informática" sec="com" sem="94b"
+CF4-2 Free shops dos aeroportos internacionais também vendem o equipamento.
+A1
+STA:fcl
+=SUBJ:np
+==H:n('Free_shop' <np-idf> M P)	Free_shops
+==N<:pp
+===H:prp('de' <sam->)	de
+===N<:np
+====>N:art('o' <-sam> <artd> M P)	os
+====H:n('aeroporto' <np-def> M P)	aeroportos
+====N<:adjp
+=====H:adj('internacional' M P)	internacionais
+=ADVL:advp
+==H:adv('também')	também
+=P:vp
+==MV:v-fin('vender' PR 3P IND)	vendem
+=ACC:np
+==>N:art('o' <artd> M S)	o
+==H:n('equipamento' <np-def> M S)	equipamento
+=.
+
+
+</s>
+</p>
+
